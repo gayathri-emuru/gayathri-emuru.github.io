@@ -812,7 +812,7 @@ footer em{
 .rv.d2{transition-delay:.12s}
 .rv.d3{transition-delay:.18s}
 
-/* ────── RÉSUMÉ MODAL ────── */
+/* ────── Resume MODAL ────── */
 .modal-overlay{
   position:fixed;inset:0;z-index:200;
   background:rgba(15,27,45,.82);
@@ -998,7 +998,7 @@ body.modal-open{overflow:hidden}
     <a href="https://github.com/gayathri-emuru" target="_blank" aria-label="GitHub" style="color:var(--ink);font-size:18px;transition:color .2s ease;display:flex;align-items:center;padding:0 4px" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--ink)'"><i class="fa-brands fa-github"></i></a>
     <a href="https://www.linkedin.com/in/gayathri-emuru/" target="_blank" aria-label="LinkedIn" style="color:var(--ink);font-size:18px;transition:color .2s ease;display:flex;align-items:center;padding:0 4px" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--ink)'"><i class="fa-brands fa-linkedin"></i></a>
     <span class="status-pill"><span class="dot"></span>Available · 2026</span>
-    <a href="https://drive.google.com/file/d/1ge9F1w314UXEena8VxXQ9CO1iw3ijC_k/view" target="_blank" class="btn btn-primary" data-resume-trigger><span>Résumé</span><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:10px"></i></a>
+    <a href="https://drive.google.com/file/d/1ge9F1w314UXEena8VxXQ9CO1iw3ijC_k/view" target="_blank" class="btn btn-primary" data-resume-trigger><span>Resume</span><i class="fa-solid fa-arrow-up-right-from-square" style="font-size:10px"></i></a>
     <button class="hb" id="hb" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </nav>
@@ -1009,7 +1009,7 @@ body.modal-open{overflow:hidden}
     <div class="hero-grid">
       <div>
         <div class="hero-pills rv">
-          <div class="hero-status"><span class="dot"></span>Available · 2026 · No sponsorship required</div>
+          <div class="hero-status"><span class="dot"></span>No sponsorship required</div>
           <a href="https://www.credly.com/badges/16ca0399-323b-4c16-ab63-991f66bae025/linked_in" target="_blank" class="hero-cert"><i class="fa-brands fa-aws"></i><span>AWS Certified ML Engineer</span><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         </div>
         <h1 class="rv d1">Gayathri<br>Emuru<span class="ital">.</span></h1>
@@ -1029,7 +1029,7 @@ body.modal-open{overflow:hidden}
         </div>
         <div class="hero-actions rv d3">
           <a href="mailto:emurugayathri@gmail.com?subject=Interview%20opportunity" class="btn btn-primary"><span>Email me about a role</span> <i class="fa-solid fa-arrow-right" style="font-size:11px"></i></a>
-          <a href="https://drive.google.com/file/d/1ge9F1w314UXEena8VxXQ9CO1iw3ijC_k/view" target="_blank" class="btn btn-ghost" data-resume-trigger><span>View résumé</span> <i class="fa-solid fa-up-right-and-down-left-from-center" style="font-size:11px"></i></a>
+          <a href="https://drive.google.com/file/d/1ge9F1w314UXEena8VxXQ9CO1iw3ijC_k/view" target="_blank" class="btn btn-ghost" data-resume-trigger><span>View Resume</span> <i class="fa-solid fa-up-right-and-down-left-from-center" style="font-size:11px"></i></a>
         </div>
         <div class="hero-meta rv d3">
           <span><i class="fa-solid fa-location-dot"></i>New York, NY · open to relocation US-wide</span>
@@ -1440,8 +1440,7 @@ body.modal-open{overflow:hidden}
           <div class="ca-l">
             <div class="ca-icon"><i class="fa-solid fa-file-lines"></i></div>
             <div>
-              <span class="ca-label">Résumé</span>
-              <span class="ca-value">View inline</span>
+              <span class="ca-label">Resume</span>
             </div>
           </div>
           <i class="fa-solid fa-up-right-and-down-left-from-center ca-arrow"></i>
@@ -1491,22 +1490,14 @@ body.modal-open{overflow:hidden}
   </div>
 </section>
 
-<!-- ─── FOOTER ─── -->
-<footer>
-  <div class="wrap">
-    <span>© 2026 Gayathri Emuru · <em>portfolio v.2026</em></span>
-    <span>Built with care · New York, NY</span>
-  </div>
-</footer>
-
-<!-- ─── RÉSUMÉ MODAL ─── -->
+<!-- ─── Resume MODAL ─── -->
 <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title" aria-hidden="true">
   <div class="modal">
     <div class="modal-header">
       <div class="modal-title">
         <div class="modal-title-icon"><i class="fa-solid fa-file-lines"></i></div>
         <div class="modal-title-text">
-          <h3 id="resume-modal-title">Résumé · Gayathri Emuru</h3>
+          <h3 id="resume-modal-title">Resume · Gayathri Emuru</h3>
           <p>Data Scientist &amp; ML Engineer · 2026</p>
         </div>
       </div>
@@ -1517,16 +1508,16 @@ body.modal-open{overflow:hidden}
         <a href="https://drive.google.com/file/d/1ge9F1w314UXEena8VxXQ9CO1iw3ijC_k/view" class="modal-action" target="_blank" rel="noopener">
           <i class="fa-solid fa-arrow-up-right-from-square"></i><span>Open in tab</span>
         </a>
-        <button class="modal-close" id="resume-modal-close" aria-label="Close résumé">
+        <button class="modal-close" id="resume-modal-close" aria-label="Close Resume">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
     </div>
     <div class="modal-body">
       <div class="modal-loading" id="resume-loading">
-        <span>Loading résumé</span>
+        <span>Loading Resume</span>
       </div>
-      <iframe id="resume-iframe" title="Gayathri Emuru — Résumé" src="" allow="autoplay" loading="lazy"></iframe>
+      <iframe id="resume-iframe" title="Gayathri Emuru — Resume" src="" allow="autoplay" loading="lazy"></iframe>
     </div>
   </div>
   <div class="modal-hint">
@@ -1553,7 +1544,7 @@ var ob = new IntersectionObserver(function(es){
 }, { threshold: .08, rootMargin: '0px 0px -40px 0px' });
 document.querySelectorAll('.rv').forEach(function(el){ ob.observe(el); });
 
-/* ─── RÉSUMÉ MODAL LOGIC ─── */
+/* ─── Resume MODAL LOGIC ─── */
 (function(){
   var modal = document.getElementById('resume-modal');
   var iframe = document.getElementById('resume-iframe');
@@ -1586,7 +1577,7 @@ document.querySelectorAll('.rv').forEach(function(el){ ob.observe(el); });
     if(lastFocused && typeof lastFocused.focus === 'function') lastFocused.focus();
   }
 
-  // Wire up all résumé triggers
+  // Wire up all Resume triggers
   document.querySelectorAll('[data-resume-trigger]').forEach(function(btn){
     btn.addEventListener('click', function(e){
       e.preventDefault();
